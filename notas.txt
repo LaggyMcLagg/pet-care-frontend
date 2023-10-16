@@ -1,0 +1,21 @@
+npm create vite@latest fichaRev
+
+npm i react-router-dom
+
+npm i prop-types
+
+npm i boostrap
+
+API:
+clone
+rename env.example to .env
+create folder tmp (put the db.sqlite3 inside the tmp)
+npm i
+npm run setup-dev
+npm run dev
+
+config ficheiro cors:
+ln 23   enabled: true,
+ln 47   origin: '*',
+se não funcionar mudar tb
+ln 120  credentials: false,

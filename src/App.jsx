@@ -6,6 +6,7 @@ import PetContext from "./logic/PetContext";
 import CreatePet from "./components/CreatePet";
 import ListPets from "./components/ListPets";
 import ShowPet from "./components/ShowPet";
+import EditPet from "./components/EditPet";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -127,6 +128,7 @@ function App() {
               <Route path="/" element={<ListPets />} />
               <Route path="/create" element={<CreatePet />} />
               <Route path="/show/:id" element={<ShowPet />} />
+              <Route path="/edit/:id" element={<EditPet />} />
             </Routes>
           </div>
         </Router>

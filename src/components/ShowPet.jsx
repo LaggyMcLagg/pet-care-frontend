@@ -18,7 +18,7 @@ function ShowPet() {
 
     return (
         <>
-            {pet && <PetCard pet={pet} showDelete={false} />}
+            {pet && <PetCard pet={pet} showDelete={false} showEdit={true} />}
         </>
     )
 }

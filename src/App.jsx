@@ -1,5 +1,7 @@
 import { useEffect } from "react"
 import { createOrUpdatePet, deletePet, getAllPets, getPetById } from "./services/main/pets"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   useEffect(() => {

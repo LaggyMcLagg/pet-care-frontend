@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+/* Same proportion for all images in card */
+.pet-image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Dark theme */
+body.dark-theme {
+  background-color: #000000;
+  color: #fff;            /* Light text color */
+  filter: invert(1);      /* Invert colors */
+}
+
+body.dark-theme img {
+  filter: invert(1);      /* Re-invert the image colors to keep them original */
+}
